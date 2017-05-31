@@ -11,8 +11,8 @@ endif()
 set(GLAD "${GLFW_SOURCE_DIR}/deps/glad/glad.h"
          "${GLFW_SOURCE_DIR}/deps/glad.c")
 
-set(IMGUI "${IMGUI_SOURCE_DIR}/imgui_impl_glfw.h"
-          "${IMGUI_SOURCE_DIR}/imgui_impl_glfw.cpp"
+set(IMGUI "${IMGUI_SOURCE_DIR}/examples/opengl_example/imgui_impl_glfw.h"
+          "${IMGUI_SOURCE_DIR}/examples/opengl_example/imgui_impl_glfw.cpp"
           "${IMGUI_SOURCE_DIR}/imgui.h"
           "${IMGUI_SOURCE_DIR}/imgui.cpp"
           "${IMGUI_SOURCE_DIR}/imgui_demo.cpp"

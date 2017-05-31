@@ -9,6 +9,7 @@ set(GLM_SOURCE_DIR    "${CMAKE_SOURCE_DIR}/external_libs/glm")
 include_directories("${GLFW_SOURCE_DIR}/deps"
                     "${GLFW_SOURCE_DIR}/include"
                     "${IMGUI_SOURCE_DIR}"
+					"${IMGUI_SOURCE_DIR}/examples/opengl_example"
                     "${TINYFD_SOURCE_DIR}"
                     "${GLM_SOURCE_DIR}"
                     "${CMAKE_SOURCE_DIR}/MyPaint")
