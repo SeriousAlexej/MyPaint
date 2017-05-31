@@ -21,7 +21,8 @@ Project uses CMake. It has no options and provides an install target, which copi
 binaries to the 'output' folder.
 
 Example of building and launching MyPaint on linux:
-`$ cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release && make install && ./output/MyPaint`
+
+ `$ cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release && make install && ./output/MyPaintGUI`
 
 Tested on Windows and Linux with following generators:
 
