@@ -1,7 +1,7 @@
 #include "dirtools.h"
 
 #if defined(_WIN32)
-#include "../../external_libs/dirent/win_dirent.h"
+#include "../../external_libs/dirent/include/dirent.h"
 #else
 #include <dirent.h>
 #endif
