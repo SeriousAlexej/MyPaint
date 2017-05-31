@@ -20,9 +20,8 @@ Building
 Project uses CMake. It has no options and provides an install target, which copies
 binaries to the 'output' folder.
 
-Example of building on linux:
-`$ cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release`
-`$ make install`
+Example of building and launching MyPaint on linux:
+`$ cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release && make install && ./output/MyPaint`
 
 Tested on Windows and Linux with following generators:
 
